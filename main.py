@@ -96,8 +96,8 @@ def plot_alignment(path, left_line, right_line):
 
 def main():
     # Load grayscale images
-    left = cv2.imread('stereo_materials/l1.png', cv2.IMREAD_GRAYSCALE)
-    right = cv2.imread('stereo_materials/r1.png', cv2.IMREAD_GRAYSCALE)
+    left = cv2.imread('stereo_materials/l3.png', cv2.IMREAD_GRAYSCALE)
+    right = cv2.imread('stereo_materials/r3.png', cv2.IMREAD_GRAYSCALE)
 
     if left is None or right is None:
         print("Error: Could not load images.")
